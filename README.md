@@ -3,4 +3,4 @@ https://github.com/Len270104/CAMBO---Resturant/tree/main#welconme-to-cam-bo-rest
 
 Host: https://len270104.github.io/CAMBO---Resturant/ 
 
-windown : git clone 
+windown : git clone https://github.com/Len270104/CAMBO---Resturant.git
