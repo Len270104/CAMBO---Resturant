@@ -9,7 +9,7 @@
   --champagne-pink_20: hsla(23, 61%, 86%, 0.2);
   --independence_30: hsla(245, 17%, 29%, 0.3);
   --gray-x-11-gray: hsl(0, 0%, 73%);
-  --champagne-pink: hsl(23, 61%, 86%);
+  --champagne-pink: hsl(0, 3%, 93%);
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --deep-saffron: hsl(32, 100%, 59%);
@@ -313,9 +313,9 @@ body.active { overflow: hidden; }
 .header-btn-group .btn { display: none; }
 
 .header {
-  --color: var(--white);
-  --btn-color: var(--champagne-pink);
-
+  --color: var(--black);
+  /* --btn-color: var(--deep-saffron); */
+  background-color: var(--champagne-pink_20);
   position: absolute;
   top: 0;
   left: 0;
@@ -511,7 +511,7 @@ body.active { overflow: hidden; }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-block: 120px 20px;
+  padding-block: 10px 10px;
   text-align: center;
 }
 
@@ -586,11 +586,18 @@ body.active { overflow: hidden; }
 .promo-card .card-title {
   margin-block: 15px;
   transition: var(--transition-1);
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 .promo-card .card-text {
   margin-block-end: 15px;
   transition: var(--transition-1);
+  font-family: "Hanuman", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .promo-card .card-banner {
@@ -627,6 +634,17 @@ body.active { overflow: hidden; }
 .about-banner .abs-img {
   top: 0;
   left: 100px;
+}
+
+.about-banner h1{
+  color: var(--dark-orange);
+  text-align: center;
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-size: 80px;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin-block-end: 25px;
 }
 
 .about .section-title {
@@ -1331,7 +1349,8 @@ textarea.input-field {
    * HERO
    */
 
-  .hero-title { --fs-1: 4.2rem; }
+
+  .hero-title { --fs-1: 1.2rem; }
 
 
 
@@ -1369,8 +1388,12 @@ textarea.input-field {
     position: relative;
     text-align: left;
     overflow: hidden;
+    min-height: 430px;
+    display: grid;
+    align-items: center;
     z-index: 1;
   }
+
 
   .hero-content > :is(*, .btn) { margin-inline: 0; }
 
@@ -1531,8 +1554,6 @@ textarea.input-field {
 
   }
 
-
-
   /**
    * REUSED STYLE
    */
@@ -1542,8 +1563,6 @@ textarea.input-field {
   .has-scrollbar > li { min-width: calc(33.33% - 6.66px); }
 
   .h2 { --fs-1: 4.2rem; }
-
-
 
   /**
    * HEADER
@@ -1580,7 +1599,7 @@ textarea.input-field {
    */
 
   .hero {
-    min-height: 660px;
+    min-height: 530px;
     display: grid;
     align-items: center;
   }
@@ -1588,11 +1607,11 @@ textarea.input-field {
   .hero-subtitle { --fs-3: 3.2rem; }
 
   .hero-title {
-    --fs-1: 7rem;
-    letter-spacing: -2.5px;
+    --fs-1: 3rem;
+    letter-spacing: -1.5px;
   }
 
-  .hero-text { font-size: var(--fs-3); }
+  .hero-text { font-size: 20px; }
 
   .hero-banner {
     max-width: 45%;
