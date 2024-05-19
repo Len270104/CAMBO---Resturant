@@ -691,9 +691,9 @@ body.active { overflow: hidden; }
 .about-banner h1{
   color: var(--dark-orange);
   text-align: center;
-  font-family: "Moul", serif;
+  font-family: "Poetsen One", sans-serif;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 45px;
   font-style: normal;
   letter-spacing: 1px;
   margin-block-end: 25px;
