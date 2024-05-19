@@ -859,7 +859,18 @@ body.active { overflow: hidden; }
 
 .food-menu-card .del { color: var(--gray-x-11-gray); }
 
+.food-menu-list .h3-card-title{
+  font-family: "Hanuman", serif;
+  font-weight: 700;
+  text-align: left;
+}
 
+.food-menu-list .category{
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--dark-orange);
+}
 
 
 
