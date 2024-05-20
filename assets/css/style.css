@@ -535,6 +535,32 @@ body.active { overflow: hidden; }
 }
 
 /*-----------------------------------*\
+#SWiper
+\*-----------------------------------*/
+
+
+.swiper {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 85%;
+  height: 100%;
+  object-fit: cover;
+}
+/*-----------------------------------*\
   #PROMO
 \*-----------------------------------*/
 
