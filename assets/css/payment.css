@@ -757,10 +757,6 @@
   
   }
   
-  
-  
-  
-  
   /**
    * responsive for larger than 768px screen
    */
@@ -861,7 +857,6 @@
   
     .food-menu-card { height: 100%; }
   
-  
     /**
      * FOOTER
      */
@@ -869,8 +864,6 @@
     .footer-top .container { grid-template-columns: 1fr 1fr 1fr 1.6fr; }
   
     .footer-form { margin-block-start: -170px; }
-  
-  
   
     /**
      * BACK TO TOP

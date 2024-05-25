@@ -811,12 +811,6 @@ textarea.input-field {
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
-  /* Menu  */
-  
-  .image-container,
-  .text-container {
-    width: 100%;
-  }
 
 }
 
