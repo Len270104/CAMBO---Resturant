@@ -479,12 +479,13 @@ body.active { overflow: hidden; }
   #MENUS
 \*-----------------------------------*/
 
-.container {
-  /* display: flex; */
-  /* flex-direction: column; */
+.containers {
+  width: 480px;
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  padding: 10px;
+  background-color: #eeeeee;
 }
 
 .image-container {
@@ -508,14 +509,18 @@ body.active { overflow: hidden; }
   font-size: 20px;
   font-weight: bold;
   margin: 5px 0;
+  color: rgb(129, 115, 115);
+  font-family: "Moul", serif;
 }
 
 .description {
   font-size: 16px;
+  font-family: "Hanuman", serif;
 }
 
 .price {
   font-weight: bold;
+  color: red;
 }
 
 .sku {
@@ -545,6 +550,13 @@ body.active { overflow: hidden; }
   font-size: 16px;
   margin: 10px 0;
   cursor: pointer;
+}
+
+.inputs{
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
 }
 
 /*-----------------------------------*\
