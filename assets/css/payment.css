@@ -480,26 +480,27 @@
     max-width: 500px;
     margin: 0 auto;
     background-color: #f5f5f5;
-    padding: 30px;
+    padding: 10px 10px 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 90px;
   }
   
-  h1 {
+  .containers h1 {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  p {
+.containers  p {
     text-align: center;
     color: #888;
   }
   
-  .form-group {
+.containers  .form-group {
     margin-bottom: 15px;
   }
   
-  label {
+.containers  label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
@@ -521,7 +522,7 @@
     margin-right: 10px;
   }
   
-  button {
+ .b_pay {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -530,7 +531,7 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .b_pay:hover {
     background-color: #3e8e41;
   }
   
