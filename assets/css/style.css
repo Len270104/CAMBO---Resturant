@@ -949,7 +949,7 @@ textarea.input-field {
   }
 
   .loader > img {
-    width: 50%;
+    width: 90%;
   }
   
 }
@@ -984,12 +984,10 @@ textarea.input-field {
   .footer-top .container { grid-template-columns: 1fr 1fr; }
 
   .loader > img {
-    width: 50%;
+    width: 75%;
   }
 
 }
-
-
 
 
 
