@@ -145,7 +145,3 @@ const progressCircle = document.querySelector(".autoplay-progress svg");
         }
       }
     });
-
-    document.getElementById('btn1').onclick=function(){
-      alert("Hello Everyone!");
-  }
