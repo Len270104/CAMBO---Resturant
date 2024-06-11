@@ -561,6 +561,7 @@ button.alert-button.alert-button-confirm {
   height: 100%;
   object-fit: cover;
 }
+
 /*-----------------------------------*\
   #PROMO
 \*-----------------------------------*/
@@ -925,7 +926,52 @@ textarea.input-field {
 
 .back-top-btn:is(:hover, :focus) { background-color: var(--rich-black-fogra-29); }
 
-
+  /* Style the menu items */
+  .container .menu-item {
+    display: inline-block; /* Display items side by side */
+    margin-right: 20px; /* Add spacing between items */
+    text-align: center; /* Center text within each item */
+    width: 350px; /* Set width for each item */
+    background-color: #f2f2f2; /* Set background color */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+    padding: 0px 0; /* Add top and bottom padding */
+  }
+  
+  /* Style the image */
+.container  .menu-item img {
+    width: 100%; /* Image stretches to fill container width */
+    height: 100%; /* Set image height */
+    object-fit: cover; /* Crop image to fit container while maintaining aspect ratio */
+  }
+  
+  /* Style the heading */
+  .container  .menu-item h3 {
+    margin-top: 10px; /* Add margin top after image */
+    margin-bottom: 5px; /* Add margin bottom before text */
+    font-size: 1.2em; /* Set font size for heading */
+  }
+  
+  /* Style the paragraph text */
+  .container  .menu-item p {
+    font-size: 0.8em; /* Set font size for paragraph text */
+    line-height: 1.5; /* Increase line spacing for readability */
+    margin-bottom: 10px; /* Add margin bottom before link */
+  }
+  
+  /* Style the link */
+  .container  .menu-item a {
+    text-decoration: none; /* Remove underline from link */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make link text bold */
+  }
+  
+  /* Style the link on hover (when cursor hovers over the link) */
+  .container  .menu-item a:hover {
+    color: var(--deep-saffron); /* Change link color on hover */
+    text-decoration: underline;
+    transition: all 0.3s;
+  }
 
 
 
@@ -1152,6 +1198,19 @@ textarea.input-field {
 
   .loader > img {
     width: 30%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 650px;
+    position: relative;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
 }
