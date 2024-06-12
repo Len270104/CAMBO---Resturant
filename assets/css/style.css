@@ -973,6 +973,147 @@ textarea.input-field {
     transition: all 0.3s;
   }
 
+/* contact */
+
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+
+/*** Button ***/
+.btn {
+  font-weight: 500;
+  transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary,
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-secondary:hover {
+  color: #FFFFFF;
+}
+
+.btn-square {
+  width: 38px;
+  height: 38px;
+}
+
+.btn-sm-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-lg-square {
+  width: 48px;
+  height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav {
+      margin-top: 10px;
+      border-top: 1px solid rgba(0, 0, 0, .07);
+      background: #FFFFFF;
+  }
+
+  .navbar .navbar-nav .nav-link {
+      padding: 10px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+      display: block;
+      visibility: hidden;
+      top: 100%;
+      transform: rotateX(-75deg);
+      transform-origin: 0% 0%;
+      transition: .5s;
+      opacity: 0;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+      transform: rotateX(0deg);
+      visibility: visible;
+      transition: .5s;
+      opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  #header-carousel .carousel-item {
+      position: relative;
+      min-height: 450px;
+  }
+  
+  #header-carousel .carousel-item img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+}
+
+.section-header {
+  position: relative;
+  padding-top: 25px;
+}
+
+.section-header::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--primary);
+}
+
+.section-header::after {
+  position: absolute;
+  content: "";
+  width: 90px;
+  height: 2px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--secondary);
+}
+
+.section-header.text-start::before,
+.section-header.text-start::after {
+  left: 0;
+  transform: translateX(0);
+}
+
+
+
+/* Responsive Styles (Optional) */
+@media (max-width: 768px) {
+  .col-lg-5,
+  .col-lg-7 {
+    width: 100%;
+  }
+}
+
+
 
 
 /*-----------------------------------*\
